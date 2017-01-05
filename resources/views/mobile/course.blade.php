@@ -14,6 +14,19 @@
 
 @section('content')
 
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
+<meta property="fb:app_id"                      content="650259121840757" />
+<meta property="og:url"                         content="{{Request::url()}}" />
+<meta property="og:type"                        content="product.item" />
+<meta property="og:title"                       content="{{$course->name}} on Darwin" />
+<meta property="og:image"                       content="https://todarwin.com/image/darwin-banner-2.png" />
+<meta property="product:retailer_item_id"       content="{{$course->id}}" />
+<meta property="product:price:amount"           content="0" />
+<meta property="product:price:currency"         content="$" />
+<meta property="product:availability"           content="Open" />
+<meta property="og:description" content="All this app does is test you daily with questions from anything you're learning." />
+
+
 <div id="content">
   <!-- <a href="/" style="display:block; padding: 15px 12px; border:1px solid #e2e2e2; margin-bottom:20px; border-radius:90px; text-align:center; ">Back</a> -->
   <div class="section">

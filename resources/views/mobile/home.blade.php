@@ -14,8 +14,14 @@
 </style>
 @extends('layouts.mobile')
 
-
 @section('content')
+
+<meta property="og:url" content="https://todarwin.com" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Darwin: A simple active learning tool for you and your friends" />
+<meta property="og:description" content="All this app does is test you daily with questions from anything you're learning." />
+<meta property="og:image" content="https://todarwin.com/image/darwin-banner-2.png" />
+<meta property="fb:app_id" content="650259121840757"/>
 
 <div id="content">
 

@@ -6,13 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-        <meta property="og:url" content="https://todarwin.com" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Darwin: A simple active learning tool for you and your friends" />
-        <meta property="og:description" content="All this app does is test you daily with questions from anything you're learning." />
-        <meta property="og:image" content="https://todarwin.com/image/darwin-banner-2.png" />
-        <meta property="fb:app_id" content="650259121840757"/>
-
         <title>Darwin: A simple active learning tool</title>
         <link rel="shortcut icon" type="image/png" href="/image/darwin.png"/>
 
